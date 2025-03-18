@@ -23,11 +23,16 @@ This project is a Real-Time emotion detection system that uses a webcam to analy
  Run thi cmd :
 cmd : **pip install tensorflow opencv-python numpy pillow**
 
+**OR** 
+
+cmd : pip install -r requirements.txt
+
 **Running the Project**
 
 Ensure your webcam is connected and not used by another application.
 
 Run the GUI program: **python gui.py**
+
 The interface will launch and start detecting emotions. The corresponding emoji will be displayed.
 
 Press q to quit the application.
